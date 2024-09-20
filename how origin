@@ -1,0 +1,16 @@
+[33mcommit ae37b015081016ea3d26f56b9d04f5d970295f48[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Ashley Davis <ashley@codecapers.com.au>
+Date:   Sat Sep 2 11:13:05 2023 +1000
+
+    Updated to Node.js version 18.17.1.
+
+[1mdiff --git a/Dockerfile-prod b/Dockerfile-prod[m
+[1mindex 80a7cdf..93db18c 100644[m
+[1m--- a/Dockerfile-prod[m
+[1m+++ b/Dockerfile-prod[m
+[36m@@ -1,4 +1,4 @@[m
+[31m-FROM node:18.5.0[m
+[32m+[m[32mFROM node:18.17.1[m
+ [m
+ WORKDIR /usr/src/app[m
+ COPY package*.json ./[m
